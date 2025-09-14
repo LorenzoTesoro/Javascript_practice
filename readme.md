@@ -1,6 +1,7 @@
-### Javascript practice Projects ###
+# JavaScript Practice Projects
 
-    ## 1- Countdown timer ##
+## 1. Countdown Timer
 
-        - dates function
-        - dom manipulation
+Features:
+- Working with **Date functions**
+- Practicing **DOM manipulation**
