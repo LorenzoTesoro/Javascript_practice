@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-light: #F8FAFC;
+    --clr-dark: #213555;
+    --bg-timer: rgba(255, 255, 255, 0.7);
+    --clr-soft: #64748b;
+    --ff-primary: 'Open Sans';
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--bg-light);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url('./assets/images/winter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}   
+h1{
+    font-family: var(--ff-primary);
+    color: var(--clr-dark);
+    font-size: 3rem;
+}
+.boxes-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 2rem;
+    padding-top: 3rem;
+    color:var(--clr-dark);
+}
+.boxes-container .countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-timer);
+    padding: 1rem;
+    border-radius: 1rem;
+    min-width: 80px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.boxes-container small{
+    color: var(--clr-soft);
+    font-weight: bold;
+    font-family: var(--ff-primary);
+    font-size: 0.8rem;
+}
+.boxes-container .value{
+    color:var(--clr-dark);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--ff-primary);
+}
